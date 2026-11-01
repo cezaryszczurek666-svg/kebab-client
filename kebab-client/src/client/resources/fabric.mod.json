@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "kebabclient",
+  "version": "${version}",
+  "name": "Kebab Client",
+  "description": "Szybki klient z ladnym menu i HUD-em. Wspolpracuje z Sodium i Lithium.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.kebab.client.KebabClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "recommends": {
+    "sodium": "*",
+    "lithium": "*"
+  }
+}
